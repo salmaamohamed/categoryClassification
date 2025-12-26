@@ -1,0 +1,35 @@
+Results for SVM: accuracy=0.6371151311848569
+              precision    recall  f1-score   support
+
+           1       0.67      0.71      0.69      2000
+           2       0.52      0.69      0.59      2000
+           3       0.61      0.73      0.67      2000
+           4       0.71      0.71      0.71      1980
+           5       0.82      0.79      0.80      1963
+           6       0.90      0.61      0.72      1269
+           7       0.72      0.67      0.69      1268
+           8       0.60      0.43      0.51      1198
+           9       0.72      0.51      0.60      1016
+          10       0.38      0.39      0.38      2000
+
+    accuracy                           0.64     16694
+   macro avg       0.66      0.62      0.64     16694
+weighted avg       0.65      0.64      0.64     16694
+
+Results for SVM Training: accuracy=0.8133554976487855
+--------------------------------------------------
+Results for MultinomialNB: accuracy=0.593626452617707
+              precision    recall  f1-score   support
+
+           1       0.58      0.72      0.64      2000
+           2       0.51      0.69      0.58      2000
+...
+weighted avg       0.60      0.59      0.59     16694
+
+Results for MultinomialNB Training: accuracy=0.6088747117141402
+--------------------------------------------------
+Results for MLP Testing: accuracy=0.6276506529291961
+Results for MLP Training: accuracy=0.7036121843831431
+--------------------------------------------------
+Results for HMM Testing: accuracy=0.11758715706241764
+Results for HMM Training: accuracy=0.11757570311798005

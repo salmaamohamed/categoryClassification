@@ -1,0 +1,19 @@
+rosrus SVC_BoW stem+StopWords kept: 0.45715308435747526
+rosrus SVC_BoW Lemma+StopWords kept: 0.4530246987233027
+rosrus SVC_BoW stem+StopWords removed: 0.46693711967545637
+rosrus SVC_BoW lemma+stopwords removed: 0.46404963608161315
+
+rosrus MultinomialNB_BoW stem+StopWords kept: 0.559026369168357
+rosrus MultinomialNB_BoW Lemma+StopWords kept: 0.5595275026846438
+rosrus MultinomialNB_BoW stem+StopWords removed: 0.5601479537048085
+rosrus MultinomialNB_BoW lemma+stopwords removed: 0.5621763512707314
+
+rosrus HMM_BoW stem+StopWords removed: 0.1699081255220141
+rosrus HMM_BoW stem+StopWords kept: 0.082877938193533
+rosrus HMM_BoW lemma+StopWords kept: 0.024245316787972794
+rosrus HMM_BoW lemma+StopWords removed: 0.060350793461400785
+
+rosrus MLP stem+stopwords removed: 0.3688342679871137
+rosrus MLP stem+stopwords kept: 0.07729387901205106
+rosrus MLP lemma+stopwords removed: 0.12979358071829136
+rosrus MLP lemma+stopwords kept: 0.07932227657797399

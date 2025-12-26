@@ -1,0 +1,39 @@
+SVC_BoW stem+StopWords kept: 0.6616155590025057                 <--
+SVC_BoW Lemma+StopWords kept: 0.6605894284691565
+SVC_BoW stem+StopWords removed: 0.6614007874955256
+SVC_BoW lemma+StopWords removed: 0.6615439685001789
+
+MultinomialNB_BoW stem+StopWords kept: 0.6672234816847632
+MultinomialNB_BoW Lemma+StopWords kept: 0.6684643837250924
+MultinomialNB_BoW stem+StopWords removed: 0.6731177663763274    <--
+MultinomialNB_BoW lemma+StopWords removed: 0.6737859443980432
+
+HMM stem+StopWords removed: 0.04331225390764825
+HMM stem+StopWords kept: 0.1699081255220141                     <---
+HMM lemma+StopWords kept: 0.06261782603507934
+HMM lemma+StopWords removed: 0.06369168356997972
+
+MLP stem+stopwords removed: 0.5851569025175993
+MLP stem+stopwords kept: 0.546498031261186
+MLP lemma+stopwords removed: 0.5852523565207016
+MLP lemma+stopwords kept: 0.5464503042596349
+
+(tf-idf) SVC_BoW stem+StopWords removed: 0.6614007874955256
+(tf-idf) SVC_BoW stem+StopWords kept: 0.6614007874955256
+(tf-idf) SVC_BoW lemma+StopWords removed: 0.6615439685001789
+(tf-idf) SVC_BoW lemma+StopWords kept: 0.6615439685001789
+
+(tf-idf) MultinomialNB_BoW stem+StopWords removed: 0.6731177663763274
+(tf-idf) MultinomialNB_BoW stem+StopWords kept: 0.6731177663763274
+(tf-idf) MultinomialNB_BoW lemma+StopWords removed: 0.6737859443980432
+(tf-idf) MultinomialNB_BoW lemma+StopWords kept: 0.6737859443980432
+
+(tf-idf) HMM stem+StopWords removed: 0.08564610428349839
+(tf-idf) HMM stem+StopWords kept: 0.1699081255220141
+(tf-idf) HMM lemma+StopWords removed: 0.06299964204748837
+(tf-idf) HMM lemma+StopWords kept: 0.05956329793580718
+
+(tf-idf) MLP stem+stopwords removed: 0.5862307600524997         <---
+(tf-idf) MLP stem+stopwords kept: 0.5841307719842501
+(tf-idf) MLP lemma+stopwords removed: 0.5851807660183749
+(tf-idf) MLP lemma+stopwords kept: 0.5827228254384919

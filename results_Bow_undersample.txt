@@ -1,0 +1,39 @@
+undersample SVM stem+StopWords removed: 0.6263328141847371
+undersample SVM stem+StopWords kept: 0.6225590032346952
+undersample SVM lemma+StopWords removed: 0.6224391997124715
+undersample SVM lemma+StopWords kept: 0.6184856834790943
+
+undersample MultinomialNB stem+StopWords removed: 0.6012938780400143  <----
+undersample MultinomialNB stem+StopWords kept: 0.5940457649454894
+undersample MultinomialNB lemma+StopWords removed: 0.5948843896010543
+undersample MultinomialNB lemma+StopWords kept: 0.5880555888343117
+
+undersample MLP stem+StopWords removed: 0.6314843656403498         <-----
+undersample MLP stem+StopWords kept: 0.6299868216125554
+undersample MLP lemma+StopWords removed: 0.6245357613513838
+undersample MLP lemma+StopWords kept: 0.6229783155624775
+
+undersample HMM stem+StopWords removed: 0.0770935665508566
+undersample HMM stem+StopWords kept: 0.11980352222355337            <---1
+undersample HMM lemma+StopWords removed: 0.08649814304540554
+undersample HMM lemma+StopWords kept: 0.098178986462202
+
+(tf-idf)undersample SVM stem+StopWords removed: 0.6383131664070923  <----
+(tf-idf)undersample SVM stem+StopWords kept: 0.6371151311848569
+(tf-idf)undersample SVM lemma+StopWords removed: 0.6307655445070085
+(tf-idf)undersample SVM lemma+StopWords kept: 0.6337606325625973
+
+(tf-idf)undersample MultinomialNB stem+StopWords removed: 0.5993171199233257
+(tf-idf)undersample MultinomialNB stem+StopWords kept: 0.593626452617707
+(tf-idf)undersample MultinomialNB lemma+StopWords removed: 0.5944051755121601
+(tf-idf)undersample MultinomialNB lemma+StopWords kept: 0.5894333293398826
+
+(tf-idf)undersample MLP stem+StopWords removed: 0.6281298670180904
+(tf-idf)undersample MLP stem+StopWords kept: 0.6276506529291961
+(tf-idf)undersample MLP lemma+StopWords removed: 0.622319396190248
+(tf-idf)undersample MLP lemma+StopWords kept: 0.6229184138013658
+
+(tf-idf)undersample HMM stem+StopWords kept: 0.11758715706241764
+(tf-idf)undersample HMM stem+StopWords removed: 0.09129028393434767
+(tf-idf)undersample HMM lemma+StopWords removed: 0.11758715706241764
+(tf-idf)undersample HMM lemma+StopWords keptd: 0.11980352222355337  <----2

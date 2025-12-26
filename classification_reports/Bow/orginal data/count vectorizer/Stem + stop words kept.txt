@@ -1,0 +1,34 @@
+Results for SVC_BoW: accuracy=0.6616155590025057
+              precision    recall  f1-score   support
+
+           1       0.73      0.78      0.75      7120
+           2       0.44      0.79      0.57      3589
+           3       0.56      0.77      0.65      3473
+           4       0.66      0.74      0.70      1980
+           5       0.69      0.78      0.73      1963
+           6       0.73      0.60      0.66      1269
+           7       0.60      0.73      0.66      1268
+           8       0.41      0.52      0.46      1198
+           9       0.63      0.61      0.62      1016
+          10       0.79      0.56      0.66     19029
+
+    accuracy                           0.66     41905
+   macro avg       0.62      0.69      0.65     41905
+weighted avg       0.70      0.66      0.66     41905
+
+--------------------------------------------------
+Results for MultinomialNB_BoW: accuracy=0.6672234816847632
+              precision    recall  f1-score   support
+
+           1       0.70      0.77      0.73      7120
+           2       0.62      0.50      0.55      3589
+           3       0.64      0.64      0.64      3473
+...
+   macro avg       0.72      0.50      0.56     41905
+weighted avg       0.68      0.67      0.65     41905
+--------------------------------------------------
+Results for MLP Testing: accuracy=0.5590755059182895
+Results for MLP Training: accuracy=0.546498031261186
+--------------------------------------------------
+Results for HMM Testing: accuracy=0.1699081255220141
+Results for HMM Training: accuracy=0.16991814623902252
