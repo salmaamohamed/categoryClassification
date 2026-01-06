@@ -1,0 +1,9 @@
+rorus SVM: 0.1775921727717456   <----
+rorus MultinomialNB: 0.12969812671518913    <---
+rorus MLP: 0.1727240186135306           <---
+rosrus HMM: 0.091301753967307 <---
+
+(tf-idf) rorus SVM: 0.17408423815773774
+(tf-idf) rorus MultinomialNB: 0.12936403770433122
+(tf-idf) rorus MLP: 0.17162629757785466
+(tf-idf) rosrus HMM: 0.028755518434554348

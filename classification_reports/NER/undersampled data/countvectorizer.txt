@@ -1,0 +1,4 @@
+
+
+Results for HMM Training: accuracy=
+Results for HMM Testing: accuracy=
