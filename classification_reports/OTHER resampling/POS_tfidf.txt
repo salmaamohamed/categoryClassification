@@ -1,0 +1,79 @@
+Results for SVC_POS Training: accuracy=0.1760625189886237
+Results for SVC_POS Testing: accuracy=0.12939407679641077
+                precision    recall  f1-score   support
+
+      BUSINESS       0.03      0.07      0.04      1198
+ ENTERTAINMENT       0.14      0.16      0.15      3473
+  FOOD & DRINK       0.06      0.13      0.08      1268
+         OTHER       0.54      0.04      0.08     19029
+      POLITICS       0.25      0.13      0.17      7120
+  QUEER VOICES       0.04      0.08      0.06      1269
+        SPORTS       0.04      0.13      0.06      1015
+STYLE & BEAUTY       0.09      0.23      0.13      1962
+        TRAVEL       0.09      0.34      0.14      1980
+      WELLNESS       0.17      0.40      0.24      3589
+
+      accuracy                           0.13     41903
+     macro avg       0.14      0.17      0.12     41903
+  weighted avg       0.33      0.13      0.12     41903
+
+--------------------------------------------------
+Results for MultinomialNB_POS Training: accuracy=0.2570975255713466
+Results for MultinomialNB_POS Testing: accuracy=0.27103071379137533
+                precision    recall  f1-score   support
+
+      BUSINESS       0.00      0.00      0.00      1198
+ ENTERTAINMENT       0.20      0.00      0.00      3473
+  FOOD & DRINK       0.00      0.00      0.00      1268
+         OTHER       0.48      0.31      0.38     19029
+      POLITICS       0.18      0.76      0.30      7120
+  QUEER VOICES       0.00      0.00      0.00      1269
+        SPORTS       0.00      0.00      0.00      1015
+STYLE & BEAUTY       0.00      0.00      0.00      1962
+        TRAVEL       0.00      0.00      0.00      1980
+      WELLNESS       0.28      0.01      0.01      3589
+
+      accuracy                           0.27     41903
+     macro avg       0.11      0.11      0.07     41903
+  weighted avg       0.29      0.27      0.22     41903
+
+--------------------------------------------------
+Results for MLP_POS_tfidf Training: accuracy=0.30513452384971135
+Results for MLP_POS_tfidf Testing: accuracy=0.30317638355249027
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00      1198
+           1       0.18      0.02      0.04      3473
+           2       0.13      0.00      0.01      1268
+           3       0.50      0.33      0.40     19029
+           4       0.22      0.68      0.34      7120
+           5       0.23      0.00      0.00      1269
+           6       0.10      0.00      0.00      1015
+           7       0.19      0.05      0.08      1962
+           8       0.21      0.07      0.11      1980
+           9       0.21      0.33      0.25      3589
+
+    accuracy                           0.30     41903
+   macro avg       0.20      0.15      0.12     41903
+weighted avg       0.33      0.30      0.27     41903
+--------------------------------------------------
+
+Model is not converging.  Current: 3470180.5570838465 is not greater than 3470180.582744651. Delta is -0.025660804472863674
+Results for hmm_POS_tfidf Training: accuracy=0.06184383755865375
+Results for hmm_POS_tfidf Testing: accuracy=0.04453141779824833
+              precision    recall  f1-score   support
+
+           0       0.03      0.02      0.02      1198
+           1       0.08      0.29      0.13      3473
+           2       0.00      0.00      0.00      1268
+           3       0.59      0.00      0.00     19029
+           4       0.06      0.00      0.00      7120
+           5       0.02      0.13      0.04      1269
+           6       0.03      0.43      0.05      1015
+           7       0.00      0.00      0.00      1962
+           8       0.00      0.00      0.00      1980
+           9       0.05      0.06      0.06      3589
+
+    accuracy                           0.04     41903
+   macro avg       0.09      0.09      0.03     41903
+weighted avg       0.29      0.04      0.02     41903

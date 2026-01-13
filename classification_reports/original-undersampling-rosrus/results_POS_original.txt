@@ -1,0 +1,23 @@
+SVC_BoW StopWords removed: 0.13430378236487292
+SVC_POS StopWords kept: 0.16735473093902875         <---
+
+MultinomialNB_BoW StopWords removed: 0.40746927574275144    <----
+MultinomialNB_POS StopWords kept: 0.37441832716859563
+
+MLP StopWords removed: 0.4539076482519986
+MLP StopWords kept: 0.45825080539315116                 <---
+
+HMM StopWords removed: 0.03667820069204152
+HMM StopWords kept: 0.0530962892256294
+
+(tf-idf) SVC_POS StopWords removed: 0.12208566996778428
+(tf-idf) SVC_POS StopWords kept: 0.16050590621644195
+
+(tf-idf) MultinomialNB_POS StopWords removed: 0.39661138288986997
+(tf-idf) MultinomialNB_POS StopWords kept: 0.36780813745376445
+
+(tf-idf) MLP StopWords removed: 0.45426560076363204
+(tf-idf) MLP StopWords kept: 0.4558644553155948
+
+(tf-idf) HMM StopWords removed: 0.04724973153561628
+(tf-idf) HMM StopWords kept: 0.08111203913614128    <---

@@ -1,0 +1,9 @@
+undersample SVM: 0.23415598418593506
+undersample MultinomialNB: 0.1590391757517671   <--
+undersample MLP: 0.23439559123038217            <---
+undersample HMM: 0.04792140888942135
+
+(tf-idf) undersample SVM: 0.23487480531927638   <---
+(tf-idf) undersample MultinomialNB: 0.15832035461842578
+(tf-idf) undersample MLP: 0.23391637714148797
+(tf-idf)undersample HMM: 0.08482089373427579    <---

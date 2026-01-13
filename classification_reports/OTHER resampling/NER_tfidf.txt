@@ -1,0 +1,78 @@
+Results for Training: accuracy=0.3149073355163218
+Results for Testing: accuracy=0.40739326539865883
+                precision    recall  f1-score   support
+
+      BUSINESS       0.00      0.00      0.00      1198
+ ENTERTAINMENT       0.26      0.04      0.06      3473
+  FOOD & DRINK       0.00      0.00      0.00      1268
+         OTHER       0.51      0.63      0.57     19029
+      POLITICS       0.28      0.67      0.39      7120
+  QUEER VOICES       0.00      0.00      0.00      1269
+        SPORTS       0.00      0.00      0.00      1015
+STYLE & BEAUTY       0.19      0.00      0.01      1962
+        TRAVEL       0.21      0.04      0.07      1980
+      WELLNESS       0.10      0.00      0.01      3589
+
+      accuracy                           0.41     41903
+     macro avg       0.15      0.14      0.11     41903
+  weighted avg       0.33      0.41      0.33     41903
+
+--------------------------------------------------
+Results for MultinomialNB_NER Training: accuracy=0.23424366201937682
+Results for MultinomialNB_NER Testing: accuracy=0.2101997470348185
+                precision    recall  f1-score   support
+
+      BUSINESS       0.11      0.00      0.00      1198
+ ENTERTAINMENT       0.43      0.00      0.01      3473
+  FOOD & DRINK       0.00      0.00      0.00      1268
+         OTHER       0.48      0.16      0.24     19029
+      POLITICS       0.17      0.80      0.28      7120
+  QUEER VOICES       0.00      0.00      0.00      1269
+        SPORTS       0.00      0.00      0.00      1015
+STYLE & BEAUTY       0.00      0.00      0.00      1962
+        TRAVEL       0.19      0.00      0.00      1980
+      WELLNESS       0.08      0.04      0.06      3589
+
+      accuracy                           0.21     41903
+     macro avg       0.15      0.10      0.06     41903
+  weighted avg       0.30      0.21      0.16     41903
+
+--------------------------------------------------
+Results for MLP_NER_tfidf Training: accuracy=0.31414779056813963
+Results for MLP_NER_tfidf Testing: accuracy=0.407775099634871
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00      1198
+           1       0.26      0.03      0.06      3473
+           2       0.17      0.00      0.00      1268
+           3       0.51      0.63      0.57     19029
+           4       0.28      0.67      0.39      7120
+           5       0.00      0.00      0.00      1269
+           6       0.00      0.00      0.00      1015
+           7       0.25      0.00      0.01      1962
+           8       0.21      0.04      0.06      1980
+           9       0.10      0.00      0.01      3589
+
+    accuracy                           0.41     41903
+   macro avg       0.18      0.14      0.11     41903
+weighted avg       0.34      0.41      0.33     41903
+
+--------------------------------------------------
+Results for hmm_NER_tfidf Training: accuracy=0.19343078013705567
+Results for hmm_NER_tfidf Testing: accuracy=0.38061713958427795
+              precision    recall  f1-score   support
+
+           0       0.02      0.04      0.02      1198
+           1       0.50      0.00      0.00      3473
+           2       0.02      0.02      0.02      1268
+           3       0.45      0.83      0.59     19029
+           4       0.15      0.00      0.00      7120
+           5       0.00      0.00      0.00      1269
+           6       0.03      0.05      0.03      1015
+           7       0.03      0.02      0.02      1962
+           8       0.06      0.01      0.01      1980
+           9       0.00      0.00      0.00      3589
+
+    accuracy                           0.38     41903
+   macro avg       0.13      0.10      0.07     41903
+weighted avg       0.28      0.38      0.27     41903

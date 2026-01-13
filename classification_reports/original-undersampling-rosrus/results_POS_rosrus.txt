@@ -1,0 +1,23 @@
+rorus SVM StopWords removed: 0.1299128982221692
+rorus SVM StopWords kept: 0.16618541940102613           <---
+
+rorus MultinomialNB StopWords removed: 0.10485622240782723
+rorus MultinomialNB StopWords kept: 0.11721751580956927     <---
+
+rorus MLP StopWords removed: 0.11590502326691325
+rorus MLP StopWords kept: 0.15065028039613412           <---
+
+rosrus HMM StopWords removed: 0.09540627610070397       <---
+rosrus HMM StopWords kept: 0.02586803484071113
+
+(tf-idf) rorus SVM StopWords removed: 0.1185777353537764
+(tf-idf) rorus SVM StopWords kept: 0.16098317623195324
+
+(tf-idf) rorus MultinomialNB StopWords removed: 0.11013005607922682
+(tf-idf) rorus MultinomialNB StopWords kept: 0.11633456628087341
+
+(tf-idf) rorus MLP StopWords removed: 0.10686075647297459
+(tf-idf) rorus MLP StopWords kept: 0.1378833074812075
+
+(tf-idf) rosrus HMM StopWords removed: 0.04827586206896552
+(tf-idf) rosrus HMM StopWords kept: 0.06199737501491469

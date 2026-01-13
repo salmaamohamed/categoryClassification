@@ -1,0 +1,23 @@
+undersample SVM StopWords removed: 0.22157661435246195
+undersample SVM StopWords kept: 0.2605127590751168              <---
+
+undersample MultinomialNB StopWords removed: 0.16874326105187493
+undersample MultinomialNB StopWords kept: 0.19803522223553371
+
+undersample MLP StopWords removed: 0.2240924883191566
+undersample MLP StopWords kept: 0.25410327063615673             <---
+
+undersample HMM StopWords removed: 0.11980352222355337          <---
+undersample HMM StopWords kept: 0.1189648975679885
+
+(tf-idf) undersample SVM StopWords removed: 0.20672097759674135
+(tf-idf) undersample SVM StopWords kept: 0.2509883790583443
+
+(tf-idf) undersample MultinomialNB StopWords removed: 0.1759913741463999
+(tf-idf) undersample MultinomialNB StopWords kept: 0.2001916856355577   <---
+
+(tf-idf) undersample MLP StopWords removed: 0.20779920929675333
+(tf-idf) undersample MLP StopWords kept: 0.24547741703606085
+
+(tf-idf)undersample HMM StopWords removed: 0.11980352222355337
+(tf-idf) undersample HMM StopWords kept: 0.10716425062896849
